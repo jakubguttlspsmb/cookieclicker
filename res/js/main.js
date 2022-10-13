@@ -15,6 +15,7 @@ cookie.onclick = () => {
   counter.innerHTML = cookies;
 };
 
+
 autoclicker.onclick = () => {
   if (cookies >= autoclickerPrice) {
     cookies -= autoclickerPrice;
