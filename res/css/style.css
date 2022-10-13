@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+#counter {
+  text-align: center;
+  /*font-family: "Josefin Sans", sans-serif; */
+  font-family: "Luckiest Guy", cursive;
+  font-size: xx-large;
+  color: black;
+}
+#cookie {
+  max-width: 240px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#cookie:hover {
+  transform: scale(1.1);
+}
+
+body {
+  background: url("../img/stažený\ soubor\ \(1\).jfif");
+}
+
+#multiclick,
+#autoclicker {
+  border: none;
+  background-color: grey;
+  padding: 1em;
+  font-size: 1em;
+  font-family: "Luckiest Guy", cursive;
+  position: fixed;
+  left: 0%;
+  width: 20%;
+}
+#multiclick {
+  top: 0;
+}
+#autoclicker {
+  top: 5%;
+}
