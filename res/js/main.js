@@ -20,7 +20,7 @@ autoclicker.onclick = () => {
     cookies -= autoclickerPrice;
     counter.innerHTML = cookies;
     autoclickerPrice *= 2;
-    autoclicker.innerHTML = `Buy autoturrets: ${autoclickerPrice}`;
+    autoclicker.innerHTML = `Buy autoturret: ${autoclickerPrice}`;
     if (autoclickerIncrease == 0) {
       setInterval(() => {
         cookies += autoclickerIncrease;
