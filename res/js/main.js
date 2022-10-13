@@ -15,7 +15,6 @@ cookie.onclick = () => {
   counter.innerHTML = cookies;
 };
 
-
 autoclicker.onclick = () => {
   if (cookies >= autoclickerPrice) {
     cookies -= autoclickerPrice;
@@ -37,7 +36,7 @@ multiclick.onclick = () => {
     cookies -= multiclickPrice;
     counter.innerHTML = cookies;
     multiclickPrice *= 2;
-    multiclick.innerHTML = `Buy multishot: ${multiclickPrice}` ;
+    multiclick.innerHTML = `Buy multishot: ${multiclickPrice}`;
     multiclickIncrease++;
   }
 };
